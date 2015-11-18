@@ -78,6 +78,7 @@
 		046EE0271BFB54EA00109657 /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 046EE01D1BFB54EA00109657 /* NSObject+MJKeyValue.m */; settings = {ASSET_TAGS = (); }; };
 		046EE0281BFB54EA00109657 /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 046EE01F1BFB54EA00109657 /* NSObject+MJProperty.m */; settings = {ASSET_TAGS = (); }; };
 		046EE0291BFB54EA00109657 /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 046EE0211BFB54EA00109657 /* NSString+MJExtension.m */; settings = {ASSET_TAGS = (); }; };
+		047CB58F1BFCEC9F00B5DB0E /* UIView+CM.m in Sources */ = {isa = PBXBuildFile; fileRef = 047CB58E1BFCEC9F00B5DB0E /* UIView+CM.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -235,6 +236,8 @@
 		046EE01F1BFB54EA00109657 /* NSObject+MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJProperty.m"; sourceTree = "<group>"; };
 		046EE0201BFB54EA00109657 /* NSString+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MJExtension.h"; sourceTree = "<group>"; };
 		046EE0211BFB54EA00109657 /* NSString+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MJExtension.m"; sourceTree = "<group>"; };
+		047CB58D1BFCEC9F00B5DB0E /* UIView+CM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CM.h"; sourceTree = "<group>"; };
+		047CB58E1BFCEC9F00B5DB0E /* UIView+CM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CM.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -475,6 +478,8 @@
 				0419356D1BFB84FD00707837 /* UIColor+extension.m */,
 				043645CF1BFC755300460306 /* UIView+Extension.h */,
 				043645D01BFC755300460306 /* UIView+Extension.m */,
+				047CB58D1BFCEC9F00B5DB0E /* UIView+CM.h */,
+				047CB58E1BFCEC9F00B5DB0E /* UIView+CM.m */,
 			);
 			path = category;
 			sourceTree = "<group>";
@@ -781,6 +786,7 @@
 				041935601BFB688D00707837 /* SDWebImagePrefetcher.m in Sources */,
 				043645D11BFC755300460306 /* UIView+Extension.m in Sources */,
 				046EDFE21BFB0EB700109657 /* CMNavViewController.m in Sources */,
+				047CB58F1BFCEC9F00B5DB0E /* UIView+CM.m in Sources */,
 				0423FCEE1BF96AF9002A4C72 /* MASConstraintMaker.m in Sources */,
 				046EE00F1BFB542D00109657 /* CMHomeCellItem.m in Sources */,
 				046EE0251BFB54EA00109657 /* MJType.m in Sources */,
