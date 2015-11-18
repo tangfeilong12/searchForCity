@@ -1,0 +1,31 @@
+//
+//  searchForCity.pch
+//  searchForCity
+//
+//  Created by mac on 15/11/16.
+//  Copyright © 2015年 mac. All rights reserved.
+//
+
+#ifndef searchForCity_pch
+#define searchForCity_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+//分类
+#import "UIBarButtonItem+extension.h"
+#import "UIColor+extension.h"
+#import "UIView+Extension.h"
+
+//布局三方框架头文件
+//define this constant if you want to use Masonry without the 'mas_' prefix
+#define MAS_SHORTHAND
+//define this constant if you want to enable auto-boxing for default syntax
+#define MAS_SHORTHAND_GLOBALS
+#import "Masonry.h"
+
+
+//常用的宏方法
+#define CMColor(r,g,b,a) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:a]
+
+#endif /* searchForCity_pch */
